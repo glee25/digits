@@ -3,7 +3,7 @@ import { Meteor } from 'meteor/meteor';
 import { Container, Header, Loader, Card } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import Contact from '../components/Contact';
+import ContactAdmin from '../components/ContactAdmin';
 import { Contacts } from '../../api/contact/Contacts';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
@@ -20,7 +20,7 @@ class ListContactsAdmin extends React.Component {
       <Container>
         <Header as="h2" textAlign="center" inverted>List Contacts (admin)</Header>
         <Card.Group>
-          {this.props.contacts.map((contact, index) => <Contact key={index} contact={contact} />)}
+          {this.props.contacts.map((contact, index) => <ContactAdmin key={index} contact={contact} />)}
         </Card.Group>
       </Container>
     );

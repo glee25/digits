@@ -27,9 +27,4 @@ class ContactsCollection {
     this.adminPublicationName = `${this.name}.publication.admin`;
   }
 }
-
-/**
- * The singleton instance of the StuffsCollection.
- * @type {StuffsCollection}
- */
 export const Contacts = new ContactsCollection();
