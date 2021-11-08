@@ -211,6 +211,6 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 To provide a simple example of a "superpower" for Admin users, the Admin page lists all the Contact by all the users:
 
-<img src="doc/Edit_Contact.PNG">
+<img src="doc/Admin-page.PNG">
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
