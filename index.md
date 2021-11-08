@@ -1,24 +1,12 @@
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-page.png)
+<img src="doc/Landing.png">
 
-Meteor-application-template-react is a sample Meteor 2.4 application that illustrates:
+Digits is an application that allows users to:
 
-  * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
-  * [Semantic UI React](https://react.semantic-ui.com/) for user interface.
-  * [Uniforms](https://uniforms.tools/) for form development.
-  * [alanning:roles](https://github.com/alanning/meteor-roles) to implement a special "Admin" user.
-  * Authorization, authentication, and registration using built-in Meteor packages.
-  * Initialization of users and data from a settings file.
-  * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
-  * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
+-Register an account.
 
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
+-Create and manage a set of contacts.
 
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
-
-  * Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
-
-Examples of the these capabilities will be provided elsewhere.
+-Add a set of timestamped notes regarding their interactions with each contact.
 
 ## Installation
 
