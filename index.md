@@ -201,6 +201,10 @@ After clicking on the "Edit" link associated with an item, this page displays th
 
 <img src="doc/Edit_Contact.PNG">
 
+This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
+
+<img src="doc/Timestamp.PNG">
+
 #### Admin page
 
 To provide a simple example of a "superpower" for Admin users, the Admin page lists all the Contact by all the users:
