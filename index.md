@@ -201,13 +201,7 @@ After clicking on the "Edit" link associated with an item, this page displays th
 
 <img src="doc/Edit_Contact.PNG">
 
-#### Landing (after Login), Admin user
-
-You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
-
-<img src="doc/Edit_Contact.PNG">
-
-#### Admin page (list all users Contacts)
+#### Admin page
 
 To provide a simple example of a "superpower" for Admin users, the Admin page lists all the Contact by all the users:
 
